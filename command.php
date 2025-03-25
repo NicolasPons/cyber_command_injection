@@ -7,4 +7,5 @@ echo "<pre>" . $commande . "</pre>";
 }
 else {
     echo "Veuillez fournir une IP"
-}
+};
+
