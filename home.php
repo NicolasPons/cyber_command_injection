@@ -1,5 +1,6 @@
 <?php
 session_start();
+session_regenerate_id(delete_old_session:true);
 
 // Vérifie si l'utilisateur est connecté
 if (!isset($_SESSION['id'], $_SESSION['username'])) {
